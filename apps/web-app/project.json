@@ -58,7 +58,11 @@
           "buildTarget": "web-app:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "dependsOn": ["api:serve"],
+      "options": {
+        "proxyConfig": "apps/web-app/proxy.conf.json"
+      }
     },
     "extract-i18n": {
       "executor": "@angular/build:extract-i18n",
