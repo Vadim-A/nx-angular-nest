@@ -59,7 +59,6 @@
         }
       },
       "defaultConfiguration": "development",
-      "dependsOn": ["api:serve"],
       "options": {
         "proxyConfig": "apps/web-app/proxy.conf.json"
       }
