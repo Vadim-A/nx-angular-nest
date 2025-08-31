@@ -1,7 +1,6 @@
 {
   "name": "@nx-angular-nest/source",
   "version": "0.0.0",
-  "license": "MIT",
   "sideEffects": false,
   "scripts": {
     "start:web": "nx serve web-app",
