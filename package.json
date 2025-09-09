@@ -10,7 +10,6 @@
     "lint:web": "nx lint web-app",
     "lint:api": "nx lint api",
     "prettier": "prettier . --write",
-    "format": "prettier . --write",
     "lint": "nx run-many -t lint",
     "lint:fix": "nx run-many -t lint -- --fix"
   },
